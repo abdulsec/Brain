@@ -1,0 +1,12 @@
+[
+    {
+        "role": "user",
+        "content": "hello",
+        "images": []
+    },
+    {
+        "role": "assistant",
+        "content": "<div class=\"errorBotMessage\"><p>Model not found.</p></div>",
+        "images": []
+    }
+]

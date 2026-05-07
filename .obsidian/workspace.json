@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "62e469386415ce5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5da7aebac228502",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bc58c79cca5ba72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enterprise-Tech-Stack-for-Bug-Hunters"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df3fed636fd47041",
+    "type": "split",
+    "children": [
+      {
+        "id": "120fa7c2020af6ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7af8761c7e46682f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3ec10a32d9ce3c46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1b0debdd8611f662",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f4788051fe1856eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "518c138cc0dc2fcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc6ad8ef82624541",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-10-30.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-10-30"
+            }
+          },
+          {
+            "id": "d2df03379d21644a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-10-30.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-10-30"
+            }
+          },
+          {
+            "id": "b8a76ba764129794",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "92b09afdaa646edc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Enterprise-Tech-Stack-for-Bug-Hunters"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7bc58c79cca5ba72",
+  "lastOpenFiles": [
+    "🧠 Learning/advanced-web-hacking.md",
+    "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
+    "🧠 Learning/waf-bypass/waf-bypass-learning-path.md",
+    "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md.tmp.42301.f15e02c53834",
+    "🧠 Learning/waf-bypass/ai-waf-bypass.md",
+    "99 ⚙️ Meta/Templates/Learning Note.md",
+    "ai-waf-bypass.md",
+    "🧠 Learning/waf-bypass/waf-bypass-labs.md",
+    "🧠 Learning/waf-bypass",
+    "learning",
+    "advanced-web-hacking.md",
+    "advanced-web-hacking.md.tmp.12500.b9967c2fb62e",
+    "waf-bypass-labs.md",
+    "waf-bypass-labs.md.tmp.12500.28d0cc76988e",
+    "99 ⚙️ Meta/Templates/Investment.md",
+    "99 ⚙️ Meta/Templates/Daily.md",
+    "99 ⚙️ Meta/Templates/Bug Bounty Target.md",
+    "🏠 Home.md",
+    "🏠 Home.md.tmp.30821.b2743ba76588",
+    "00 📥 Inbox/Mount a Disk for Forensics.md",
+    "🏠 Home.md.tmp.30821.3b858388635a",
+    "🔬 Forensics/Mount a Disk for Forensics.md",
+    "🔬 Forensics",
+    "TryHackMe/compiled.md",
+    "TryHackMe",
+    "HackTheBox",
+    "🔍 Research/syntax_confusion_parsing_exploits.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/script hackeorne hacking script.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/iframehijak lab.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/hack along grammarly.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/domlogger++ masterclass.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/css injection.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/browser extensions.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/Untitled.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/Prototype Pollution Masterclass  with BitK.md",
+    "📖 Sec Learning & Resources/paid/criticalthinking/High ROI Manual Bug Hunting Techniques - Critical Thinkers Exclusive.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Screenshot 2024-10-27 at 23-24-30 577646 - Hacker Performance.png",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "abdulsec/Untitled.canvas"
+  ]
+}

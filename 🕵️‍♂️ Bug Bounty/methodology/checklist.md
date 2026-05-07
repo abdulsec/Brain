@@ -1,0 +1,4 @@
+- [ ] Registering with email +70 Chars  Lead to Disclose some informations Django Debug Mode
+- [ ] blocking redirect  of a path like /admin for authentification bypass
+- [ ] brute forcing  endpoint
+- [ ] 
