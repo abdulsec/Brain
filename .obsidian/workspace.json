@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
+                "file": "🧠 Learning/Essence-of-Recon-Bug-Bounty-and-Pentest-Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enterprise-Tech-Stack-for-Bug-Hunters"
+              "title": "Essence-of-Recon-Bug-Bounty-and-Pentest-Notes"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
+                "file": "🧠 Learning/Essence-of-Recon-Bug-Bounty-and-Pentest-Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Enterprise-Tech-Stack-for-Bug-Hunters"
+              "title": "Outline of Essence-of-Recon-Bug-Bounty-and-Pentest-Notes"
             }
           }
         ],
@@ -169,15 +169,16 @@
   },
   "active": "7bc58c79cca5ba72",
   "lastOpenFiles": [
+    "🧠 Learning/smart contract security.md",
+    "🧠 Learning/Essence-of-Recon-Bug-Bounty-and-Pentest-Notes.md",
+    "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
+    "🧠 Learning/advanced-web-hacking.md",
     "🧠 Learning/learning ai/useful video about ai.md",
     "🧠 Learning/learning ai/top resource.md",
     "🧠 Learning/learning ai/ollama and open-webui.md",
     "🧠 Learning/waf-bypass/waf-bypass-learning-path.md",
     "🧠 Learning/waf-bypass/waf-bypass-labs.md",
     "🧠 Learning/waf-bypass/ai-waf-bypass.md",
-    "🧠 Learning/advanced-web-hacking.md",
-    "🧠 Learning/smart contract security.md",
-    "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md",
     "🧠 Learning/Enterprise-Tech-Stack-for-Bug-Hunters.md.tmp.42301.f15e02c53834",
     "99 ⚙️ Meta/Templates/Learning Note.md",
     "ai-waf-bypass.md",
@@ -204,7 +205,6 @@
     "📖 Sec Learning & Resources/paid/criticalthinking/iframehijak lab.md",
     "📖 Sec Learning & Resources/paid/criticalthinking/hack along grammarly.md",
     "📖 Sec Learning & Resources/paid/criticalthinking/domlogger++ masterclass.md",
-    "📖 Sec Learning & Resources/paid/criticalthinking/css injection.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Screenshot 2024-10-27 at 23-24-30 577646 - Hacker Performance.png",
