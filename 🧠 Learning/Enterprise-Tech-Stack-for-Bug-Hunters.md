@@ -26,13 +26,13 @@
 ## 2. CDN (Content Delivery Network)
 
 ### Tier 1: The Giants
-| CDN | Market | How to Fingerprint | Attack Surface |
-|-----|--------|-------------------|----------------|
-| **Cloudflare** | Dominates tech/SaaS/startups | `cf-ray` header, `server: cloudflare`, cert SAN `*.cloudflare.com` | Cache poisoning, workers abuse, unprotected origins via direct IP |
-| **Akamai** | Banking, insurance, Fortune 500 legacy | `x-akamai-request-id`, `server: AkamaiGHost`, edge cookies (`aka_...`) | ESI injection, caching rules abuse |
-| **Fastly** | Media, e-commerce, real-time | `x-served-by`, `x-cache: HIT/MISS`, `Fastly-*` headers, `surrogate-control` | Surrogate key manipulation, VCL bypass |
-| **Amazon CloudFront** | AWS-native shops | `x-amz-cf-id`, `x-amz-cf-pop`, `via: ... CloudFront` | S3 bucket misconfig, OAI bypass, cache poisoning via query strings |
-| **Azure Front Door** | Microsoft-heavy enterprise | `x-azure-ref`, `x-ms-*` headers | Origin bypass, routing rule abuse |
+| CDN                   | Market                                 | How to Fingerprint                                                          | Attack Surface                                                     |
+| --------------------- | -------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| **Cloudflare**        | Dominates tech/SaaS/startups           | `cf-ray` header, `server: cloudflare`, cert SAN `*.cloudflare.com`          | Cache poisoning, workers abuse, unprotected origins via direct IP  |
+| **Akamai**            | Banking, insurance, Fortune 500 legacy | `x-akamai-request-id`, `server: AkamaiGHost`, edge cookies (`aka_...`)      | ESI injection, caching rules abuse                                 |
+| **Fastly**            | Media, e-commerce, real-time           | `x-served-by`, `x-cache: HIT/MISS`, `Fastly-*` headers, `surrogate-control` | Surrogate key manipulation, VCL bypass                             |
+| **Amazon CloudFront** | AWS-native shops                       | `x-amz-cf-id`, `x-amz-cf-pop`, `via: ... CloudFront`                        | S3 bucket misconfig, OAI bypass, cache poisoning via query strings |
+| **Azure Front Door**  | Microsoft-heavy enterprise             | `x-azure-ref`, `x-ms-*` headers                                             | Origin bypass, routing rule abuse                                  |
 
 ### Tier 2: Others
 - **EdgeCast/Verizon** (legacy media), **StackPath** (gaming), **KeyCDN/BunnyCDN** (price-sensitive), **Cloudflare R2** (storage CDN)
