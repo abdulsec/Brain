@@ -1,0 +1,288 @@
+# Ubiquiti CVEs (42 total)
+
+## CVE-2019-25651 (2026-03-27) — CVSS: 8.3
+Ubiquiti UniFi Network Controller prior to 5.10.12 (excluding 5.6.42), UAP FW prior to 4.0.6, UAP-AC, UAP-AC v2, and UAP-AC Outdoor FW prior to 3.8.17, USW FW prior to 4.0.6, USG FW prior to 4.4.34 uses AES-CBC encryption for device-to-controller communication, which contains cryptographic weaknesses that allow attackers to recover encryption keys from captured traffic. Attackers with adjacent network access can capture sufficient encrypted traffic and exploit AES-CBC mode vulnerabilities to derive the encryption keys, enabling unauthorized control and management of network devices.
+
+---
+
+## CVE-2024-54750 (2024-12-06) — CVSS: 9.8
+Ubiquiti U6-LR 6.6.65 was discovered to contain a hardcoded password vulnerability in /etc/shadow, which allows attackers to log in as root. NOTE: In Ubiquiti's view there is no vulnerability as the Hardcoded Password should be after setup not before.
+
+---
+
+## CVE-2024-54749 (2024-12-06) — CVSS: 7.5
+Ubiquiti U7-Pro 7.0.35 was discovered to contain a hardcoded password vulnerability in /etc/shadow, which allows attackers to log in as root. NOTE: this is disputed by the Supplier because the observation only established that a password is present in a firmware image; however, the device cannot be deployed without setting a new password during installation.
+
+---
+
+## CVE-2024-44540 (2024-09-23) — CVSS: 6.6
+Ubiquiti AirMax firmware version firmware version 8 allows attackers with physical access to gain a privileged command shell via the UART Debugging Port.
+
+---
+
+## CVE-2023-2373 (2023-04-28) — CVSS: 6.3
+**Products:** edgemax_edgerouter_firmware, er-x, er-x-sfp
+
+A vulnerability, which was classified as critical, was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. This affects an unknown part of the component Web Management Interface. The manipulation of the argument ecn-up leads to command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227649 was assigned to this vulnerability.
+
+---
+
+## CVE-2023-2374 (2023-04-28) — CVSS: 6.3
+**Products:** er-x, er-x-sfp, er-x-sfp_firmware
+
+A vulnerability has been found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6 and classified as critical. This vulnerability affects unknown code of the component Web Management Interface. The manipulation of the argument ecn-down leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-227650 is the identifier assigned to this vulnerability.
+
+---
+
+## CVE-2023-2375 (2023-04-28) — CVSS: 6.3
+**Products:** er-x, er-x-sfp, er-x-sfp_firmware
+
+A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6 and classified as critical. This issue affects some unknown processing of the component Web Management Interface. The manipulation of the argument src leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227651.
+
+---
+
+## CVE-2023-2376 (2023-04-28) — CVSS: 6.3
+**Products:** er-x, er-x-sfp, er-x-sfp_firmware
+
+A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. It has been classified as critical. Affected is an unknown function of the component Web Management Interface. The manipulation of the argument dpi leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-227652.
+
+---
+
+## CVE-2023-2377 (2023-04-28) — CVSS: 6.3
+**Products:** er-x, er-x-sfp, er-x-sfp_firmware
+
+A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the component Web Management Interface. The manipulation of the argument name leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-227653 was assigned to this vulnerability.
+
+---
+
+## CVE-2023-2378 (2023-04-28) — CVSS: 6.3
+**Products:** er-x, er-x-sfp, er-x-sfp_firmware
+
+A vulnerability was found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. It has been rated as critical. Affected by this issue is some unknown functionality of the component Web Management Interface. The manipulation of the argument suffix-rate-up leads to command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-227654 is the identifier assigned to this vulnerability.
+
+---
+
+## CVE-2023-2379 (2023-04-28) — CVSS: 7.5
+**Products:** er-x, er-x-sfp, er-x-sfp_firmware
+
+A vulnerability classified as critical has been found in Ubiquiti EdgeRouter X up to 2.0.9-hotfix.6. This affects an unknown part of the component Web Service. The manipulation leads to denial of service. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-227655.
+
+---
+
+## CVE-2023-1456 (2023-03-25) — CVSS: 7.2
+**Products:** edgerouter_x, edgerouter_x_firmware
+
+A vulnerability, which was classified as critical, has been found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6. This issue affects some unknown processing of the component NAT Configuration Handler. The manipulation leads to command injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The identifier VDB-223301 was assigned to this vulnerability. NOTE: The vendor position is that post-authentication issues are not accepted as vulnerabilities.
+
+---
+
+## CVE-2023-1457 (2023-03-25) — CVSS: 7.2
+**Products:** edgerouter_x, edgerouter_x_firmware
+
+A vulnerability, which was classified as critical, was found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6. Affected is an unknown function of the component Static Routing Configuration Handler. The manipulation of the argument next-hop-interface leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. VDB-223302 is the identifier assigned to this vulnerability. NOTE: The vendor position is that post-authentication issues are not accepted as vulnerabilities.
+
+---
+
+## CVE-2023-1458 (2023-03-25) — CVSS: 7.2
+**Products:** edgerouter_x, edgerouter_x_firmware
+
+A vulnerability has been found in Ubiquiti EdgeRouter X 2.0.9-hotfix.6 and classified as critical. Affected by this vulnerability is an unknown functionality of the component OSPF Handler. The manipulation of the argument area leads to command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. The associated identifier of this vulnerability is VDB-223303. NOTE: The vendor position is that post-authentication issues are not accepted as vulnerabilities.
+
+---
+
+## CVE-2023-24104 (2023-02-23) — CVSS: 9.8
+**Products:** unifi_dream_machine_pro, unifi_dream_machine_pro_firmware
+
+Ubiquiti Networks UniFi Dream Machine Pro v7.2.95 allows attackers to bypass domain restrictions via crafted packets.
+
+---
+
+## CVE-2023-23119 (2023-02-02) — CVSS: 5.9
+**Products:** af-2x, af-2x_firmware
+
+The use of the cyclic redundancy check (CRC) algorithm for integrity check during firmware update makes Ubiquiti airFiber AF2X Radio firmware version 3.2.2 and earlier vulnerable to firmware modification attacks. An attacker can conduct a man-in-the-middle (MITM) attack to modify the new firmware image and bypass the checksum verification.
+
+---
+
+## CVE-2020-24755 (2021-05-17) — CVSS: 7.8
+**Products:** unifi_video
+
+In Ubiquiti UniFi Video v3.10.13, when the executable starts, its first library validation is in the current directory. This allows the impersonation and modification of the library to execute code on the system. This was tested in (Windows 7 x64/Windows 10 x64).
+
+---
+
+## CVE-2020-27888 (2020-10-27) — CVSS: 7.5
+**Products:** unifi_controller, unifi_controller_firmware, unifi_meshing_access_point
+
+An issue was discovered on Ubiquiti UniFi Meshing Access Point UAP-AC-M 4.3.21.11325 and UniFi Controller 6.0.28 devices. Cached credentials are not erased from an access point returning wirelessly from a disconnected state. This may provide unintended network access.
+
+---
+
+## CVE-2014-2225 (2020-02-08) — CVSS: 8.8
+**Products:** airvision_controller, mfi_controller, unifi_controller
+
+Multiple cross-site request forgery (CSRF) vulnerabilities in Ubiquiti Networks UniFi Controller before 3.2.1 allow remote attackers to hijack the authentication of administrators for requests that (1) create a new admin user via a request to api/add/admin; (2) have unspecified impact via a request to api/add/wlanconf; change the guest (3) password, (4) authentication method, or (5) restricted subnets via a request to api/set/setting/guest_access; (6) block, (7) unblock, or (8) reconnect users by MAC address via a request to api/cmd/stamgr; change the syslog (9) server or (10) port via a request to api/set/setting/rsyslogd; (11) have unspecified impact via a request to api/set/setting/smtp; change the syslog (12) server, (13) port, or (14) authentication settings via a request to api/cmd/cfgmgr; or (15) change the Unifi Controller name via a request to api/set/setting/identity.
+
+---
+
+## CVE-2019-16889 (2019-09-25) — CVSS: 7.5
+**Products:** ep-r6, ep-r6_firmware, ep-r8
+
+Ubiquiti EdgeMAX devices before 2.0.3 allow remote attackers to cause a denial of service (disk consumption) because *.cache files in /var/run/beaker/container_file/ are created when providing a valid length payload of 249 characters or fewer to the beaker.session.id cookie in a GET header. The attacker can use a long series of unique session IDs.
+
+---
+
+## CVE-2010-5330 (2019-06-11) — CVSS: 9.8
+**Products:** airos
+
+On certain Ubiquiti devices, Command Injection exists via a GET request to stainfo.cgi (aka Show AP info) because the ifname variable is not sanitized, as demonstrated by shell metacharacters. The fixed version is v4.0.1 for 802.11 ISP products, v5.3.5 for AirMax ISP products, and v5.4.5 for AirSync firmware. For example, Nanostation5 (Air OS) is affected.
+
+---
+
+## CVE-2018-5265 (2019-06-07) — CVSS: 7.2
+**Products:** edgeos, erlite-3
+
+Ubiquiti EdgeOS 1.9.1 on EdgeRouter Lite devices allows remote attackers to execute arbitrary code with admin credentials, because /opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def does not sanitize the 'alias' or 'ips' parameter for shell metacharacters.
+
+---
+
+## CVE-2018-5264 (2019-06-07) — CVSS: 5.9
+**Products:** unifi_52, unifi_firmware
+
+Ubiquiti UniFi 52 devices, when Hotspot mode is used, allow remote attackers to bypass intended restrictions on "free time" Wi-Fi usage by sending a /guest/s/default/ request to obtain a cookie, and then using this cookie in a /guest/s/default/login request with the byfree parameter.
+
+---
+
+## CVE-2019-12727 (2019-06-04) — CVSS: 7.5
+**Products:** aircam, aircam_firmware
+
+On Ubiquiti airCam 3.1.4 devices, a Denial of Service vulnerability exists in the RTSP Service provided by the ubnt-streamer binary. The issue can be triggered via malformed RTSP requests that lead to an invalid memory read. To exploit the vulnerability, an attacker must craft an RTSP request with a large number of headers.
+
+---
+
+## CVE-2019-5424 (2019-04-10) — CVSS: 8.8
+**Products:** edgeswitch_x
+
+In Ubiquiti Networks EdgeSwitch X v1.1.0 and prior, a privileged user can execute arbitrary shell commands over the SSH CLI interface. This allows to execute shell commands under the root user.
+
+---
+
+## CVE-2019-5425 (2019-04-10) — CVSS: 8.8
+**Products:** edgeswitch_x
+
+In Ubiquiti Networks EdgeSwitch X v1.1.0 and prior, an authenticated user can execute arbitrary shell commands over the SSH interface bypassing the CLI interface, which allow them to escalate privileges to root.
+
+---
+
+## CVE-2019-5426 (2019-04-10) — CVSS: 4.8
+**Products:** edgeswitch_x
+
+In Ubiquiti Networks EdgeSwitch X v1.1.0 and prior, an unauthenticated user can use the "local port forwarding" and "dynamic port forwarding" (SOCKS proxy) functionalities. Remote attackers without credentials can exploit this bug to access local services or forward traffic through the device if SSH is enabled in the system settings.
+
+---
+
+## CVE-2015-9266 (2018-09-05) — CVSS: 9.8
+**Products:** af5, af5_firmware, af5x
+
+The web management interface of Ubiquiti airMAX, airFiber, airGateway and EdgeSwitch XP (formerly TOUGHSwitch) allows an unauthenticated attacker to upload and write arbitrary files using directory traversal techniques. An attacker can exploit this vulnerability to gain root privileges. This vulnerability is fixed in the following product versions (fixes released in July 2015, all prior versions are affected): airMAX AC 7.1.3; airMAX M (and airRouter) 5.6.2 XM/XW/TI, 5.5.11 XM/TI, and 5.5.10u2 XW; airGateway 1.1.5; airFiber AF24/AF24HD 2.2.1, AF5x 3.0.2.1, and AF5 2.2.1; airOS 4 XS2/XS5 4.0.4; and EdgeSwitch XP (formerly TOUGHSwitch) 1.3.2.
+
+---
+
+## CVE-2017-0912 (2018-07-03) — CVSS: 5.4
+**Products:** ucrm
+
+Ubiquiti UCRM versions 2.5.0 to 2.7.7 are vulnerable to Stored Cross-site Scripting. Due to the lack sanitization, it is possible to inject arbitrary HTML code by manipulating the uploaded filename. Successful exploitation requires valid credentials to an account with "Edit" access to "Scheduling".
+
+---
+
+## CVE-2017-0913 (2018-07-03) — CVSS: 4.7
+**Products:** ucrm
+
+Ubiquiti UCRM versions 2.3.0 to 2.7.7 allow an authenticated user to read arbitrary files in the local file system. Note that by default, the local file system is isolated in a docker container. Successful exploitation requires valid credentials to an account with "Edit" access to "System Customization".
+
+---
+
+## CVE-2018-12590 (2018-06-20) — CVSS: 7.2
+**Products:** edgeswitch, edgeswitch_firmware
+
+Ubiquiti Networks EdgeSwitch version 1.7.3 and prior suffer from an externally controlled format-string vulnerability due to lack of protection on the admin CLI, leading to code execution and privilege escalation greater than administrators themselves are allowed. An attacker with access to an admin account could escape the restricted CLI and execute arbitrary code.
+
+---
+
+## CVE-2018-12591 (2018-06-20) — CVSS: 7.2
+**Products:** edgeswitch, edgeswitch_firmware
+
+Ubiquiti Networks EdgeSwitch version 1.7.3 and prior suffer from an improperly neutralized element in an OS command due to lack of protection on the admin CLI, leading to code execution and privilege escalation greater than administrators themselves are allowed. An attacker with access to an admin account could escape the restricted CLI and execute arbitrary shell instructions.
+
+---
+
+## CVE-2017-0932 (2018-03-22) — CVSS: 8.8
+**Products:** edgeos
+
+Ubiquiti Networks EdgeOS version 1.9.1.1 and prior suffer from an Improper Privilege Management vulnerability due to the lack of validation on the input of the Feature functionality. An attacker with access to an operator (read-only) account and ssh connection to the devices could escalate privileges to admin (root) access in the system.
+
+---
+
+## CVE-2017-0933 (2018-03-22) — CVSS: 8.0
+**Products:** edgeos
+
+Ubiquiti Networks EdgeOS version 1.9.1 and prior suffer from a Cross-Site Request Forgery (CSRF) vulnerability. An attacker with access to an operator (read-only) account could lure an admin (root) user to access the attacker-controlled page, allowing the attacker to gain admin privileges in the system.
+
+---
+
+## CVE-2017-0934 (2018-03-22) — CVSS: 8.8
+**Products:** edgeos
+
+Ubiquiti Networks EdgeOS version 1.9.1 and prior suffer from an Improper Privilege Management vulnerability due to the lack of protection of the file system leading to sensitive information being exposed. An attacker with access to an operator (read-only) account could escalate privileges to admin (root) access in the system.
+
+---
+
+## CVE-2017-0935 (2018-03-22) — CVSS: 8.8
+**Products:** edgeos
+
+Ubiquiti Networks EdgeOS version 1.9.1.1 and prior suffer from an Improper Privilege Management vulnerability due to the lack of protection of the file system leading to sensitive information being exposed. An attacker with access to an operator (read-only) account could escalate privileges to admin (root) access in the system.
+
+---
+
+## CVE-2016-6914 (2017-12-27) — CVSS: 7.8
+**Products:** unifi_video, windows
+
+Ubiquiti UniFi Video before 3.8.0 for Windows uses weak permissions for the installation directory, which allows local users to gain SYSTEM privileges via a Trojan horse taskkill.exe file.
+
+---
+
+## CVE-2016-7792 (2017-01-23) — CVSS: 8.8
+**Products:** unifi_ap_ac_lite, unifi_ap_ac_lite_firmware
+
+Ubiquiti Networks UniFi 5.2.7 does not restrict access to the database, which allows remote attackers to modify the database by directly connecting to it.
+
+---
+
+## CVE-2014-2226 (2014-07-29) — CVSS: 2.6
+**Products:** unifi_controller
+
+Ubiquiti UniFi Controller before 3.2.1 logs the administrative password hash in syslog messages, which allows man-in-the-middle attackers to obtain sensitive information via unspecified vectors.
+
+---
+
+## CVE-2014-2227 (2014-07-25) — CVSS: 6.0
+**Products:** unifi_video
+
+The default Flash cross-domain policy (crossdomain.xml) in Ubiquiti Networks UniFi Video (formerly AirVision aka AirVision Controller) before 3.0.1 does not restrict access to the application, which allows remote attackers to bypass the Same Origin Policy via a crafted SWF file.
+
+---
+
+## CVE-2013-3572 (2013-12-31) — CVSS: 6.1
+**Products:** unifi_controller
+
+Cross-site scripting (XSS) vulnerability in the administer interface in the UniFi Controller in Ubiquiti Networks UniFi 2.3.5 and earlier allows remote attackers to inject arbitrary web script or HTML via a crafted client hostname.
+
+---
+
+## CVE-2013-1606 (2013-07-18) — CVSS: 7.5
+**Products:** aircam, aircam_dome, aircam_mini
+
+Buffer overflow in the ubnt-streamer RTSP service on the Ubiquiti UBNT AirCam with airVision firmware before 1.1.6 allows remote attackers to execute arbitrary code via a long rtsp: URI in a DESCRIBE request.
+
+---
+
