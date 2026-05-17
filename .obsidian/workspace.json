@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/how to do source code review.md",
+                "file": "elite/elite-web-bugbounty-ai-era-roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "how to do source code review"
+              "title": "elite-web-bugbounty-ai-era-roadmap"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/how to do source code review.md",
+                "file": "elite/elite-web-bugbounty-ai-era-roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of how to do source code review"
+              "title": "Outline of elite-web-bugbounty-ai-era-roadmap"
             }
           }
         ],
@@ -169,6 +169,8 @@
   },
   "active": "7af8761c7e46682f",
   "lastOpenFiles": [
+    "Assetnote-Research/BLOG_SUMMARIES.md",
+    "Learning/how to do source code review.md",
     "research/syntax_confusion_parsing_exploits.md",
     "pentesting/beyondrecon/site/blog-src/node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-ui.js",
     "pentesting/beyondrecon/site/blog-src/node_modules/astro/dist/runtime/client/dev-toolbar/apps/audit/ui/audit-ui.d.ts",
@@ -203,8 +205,6 @@
     "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/engine-javascript/README.md",
     "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/core/README.md",
     "pentesting/beyondrecon/site/blog-src/node_modules/@ungap/structured-clone/README.md",
-    "pentesting/beyondrecon/site/blog-src/node_modules/@rollup/rollup-linux-x64-gnu/README.md",
-    "pentesting/beyondrecon/site/blog-src/node_modules/@rollup/pluginutils/README.md",
     "pentesting/beyondrecon/site/blog-src/public/favicon.svg",
     "pentesting/beyondrecon/beyondrecon/project/uploads/ChatGPT Image May 1, 2026, 11_52_07 AM.png",
     "pentesting/beyondrecon/beyondrecon/project/assets/logo.png",
