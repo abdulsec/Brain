@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "elite/elite-web-bugbounty-ai-era-roadmap.md",
+                "file": "elite/pwn2own-roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "elite-web-bugbounty-ai-era-roadmap"
+              "title": "pwn2own-roadmap"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "elite/elite-web-bugbounty-ai-era-roadmap.md",
+                "file": "elite/pwn2own-roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of elite-web-bugbounty-ai-era-roadmap"
+              "title": "Outline of pwn2own-roadmap"
             }
           }
         ],
@@ -167,8 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7af8761c7e46682f",
+  "active": "7bc58c79cca5ba72",
   "lastOpenFiles": [
+    "elite/elite-web-bugbounty-ai-era-roadmap.md",
+    "learning/pwn2own-category-roadmaps.md",
     "learning/elite-web-bugbounty-ai-era-roadmap.md",
     "learning",
     "Assetnote-Research/BLOG_SUMMARIES.md",
@@ -203,8 +205,6 @@
     "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/themes/README.md",
     "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/langs/README.md",
     "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/engine-oniguruma/README.md",
-    "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/engine-javascript/README.md",
-    "pentesting/beyondrecon/site/blog-src/node_modules/@shikijs/core/README.md",
     "pentesting/beyondrecon/site/blog-src/public/favicon.svg",
     "pentesting/beyondrecon/beyondrecon/project/uploads/ChatGPT Image May 1, 2026, 11_52_07 AM.png",
     "pentesting/beyondrecon/beyondrecon/project/assets/logo.png",
